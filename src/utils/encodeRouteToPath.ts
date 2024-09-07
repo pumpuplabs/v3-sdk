@@ -1,5 +1,5 @@
 import { pack } from '@ethersproject/solidity'
-import { Currency, Token } from '@cndllabs/sdk-core'
+import { Currency, Token } from '@uniswap/sdk-core'
 import { Pool } from '../entities/pool'
 import { Route } from '../entities/route'
 
@@ -22,13 +22,13 @@ export function encodeRouteToPath(route: Route<Currency, Currency>, exactOutput:
         return {
           inputToken: outputToken,
           types: ['address', 'uint24', 'address'],
-          path: [inputToken.address, pool.fee, outputToken.address]
+          path: [inputToken.address, pool.fee, outputToken.address],
         }
       } else {
         return {
           inputToken: outputToken,
           types: [...types, 'uint24', 'address'],
-          path: [...path, pool.fee, outputToken.address]
+          path: [...path, pool.fee, outputToken.address],
         }
       }
     },

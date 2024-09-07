@@ -1,4 +1,4 @@
-import { BigintIsh } from '@cndllabs/sdk-core'
+import { BigintIsh } from '@uniswap/sdk-core'
 import JSBI from 'jsbi'
 
 /**

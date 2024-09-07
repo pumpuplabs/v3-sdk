@@ -1,7 +1,7 @@
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { getCreate2Address } from '@ethersproject/address'
 import { keccak256 } from '@ethersproject/solidity'
-import { Token } from '@cndllabs/sdk-core'
+import { Token } from '@uniswap/sdk-core'
 import { FeeAmount, POOL_INIT_CODE_HASH } from '../constants'
 
 /**
@@ -18,7 +18,7 @@ export function computePoolAddress({
   tokenA,
   tokenB,
   fee,
-  initCodeHashManualOverride
+  initCodeHashManualOverride,
 }: {
   factoryAddress: string
   tokenA: Token
