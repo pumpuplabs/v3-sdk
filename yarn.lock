@@ -1536,7 +1536,7 @@
 
 "@uniswap/sdk-core@https://github.com/pumpuplabs/sdk-core.git":
   version "3.0.1"
-  resolved "https://github.com/pumpuplabs/sdk-core.git#d16194635415cdffd804e89fc7525dcf75b17359"
+  resolved "https://github.com/pumpuplabs/sdk-core.git#ac04cfd071842f842cb4431f6a8826315bd619d9"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
