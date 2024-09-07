@@ -893,9 +893,10 @@ try {
 }
 });
 
-var _TICK_SPACINGS;
+var _FACTORY_ADDRESS_MAP, _TICK_SPACINGS;
 
 var FACTORY_ADDRESS = '0xD7958C86786bfeEe1350F764031109901582d939';
+var FACTORY_ADDRESS_MAP = (_FACTORY_ADDRESS_MAP = {}, _FACTORY_ADDRESS_MAP[85432] = '0xD7958C86786bfeEe1350F764031109901582d939', _FACTORY_ADDRESS_MAP[1] = '0x1F98431c8aD98523631AE4a59f267346ea31F984', _FACTORY_ADDRESS_MAP);
 var ADDRESS_ZERO = '0x0000000000000000000000000000000000000000';
 var POOL_INIT_CODE_HASH = '0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54';
 /**
@@ -4080,5 +4081,5 @@ var SwapRouter = /*#__PURE__*/function () {
 }();
 SwapRouter.INTERFACE = /*#__PURE__*/new Interface(ISwapRouter.abi);
 
-export { ADDRESS_ZERO, FACTORY_ADDRESS, FeeAmount, FullMath, LiquidityMath, Multicall, NoTickDataProvider, NonfungiblePositionManager, POOL_INIT_CODE_HASH, Payments, Pool, Position, PositionLibrary, Route, SelfPermit, SqrtPriceMath, Staker, SwapMath, SwapQuoter, SwapRouter, TICK_SPACINGS, Tick, TickLibrary, TickList, TickListDataProvider, TickMath, Trade, computePoolAddress, encodeRouteToPath, encodeSqrtRatioX96, isSorted, maxLiquidityForAmounts, mostSignificantBit, nearestUsableTick, priceToClosestTick, subIn256, tickToPrice, toHex, tradeComparator };
+export { ADDRESS_ZERO, FACTORY_ADDRESS, FACTORY_ADDRESS_MAP, FeeAmount, FullMath, LiquidityMath, Multicall, NoTickDataProvider, NonfungiblePositionManager, POOL_INIT_CODE_HASH, Payments, Pool, Position, PositionLibrary, Route, SelfPermit, SqrtPriceMath, Staker, SwapMath, SwapQuoter, SwapRouter, TICK_SPACINGS, Tick, TickLibrary, TickList, TickListDataProvider, TickMath, Trade, computePoolAddress, encodeRouteToPath, encodeSqrtRatioX96, isSorted, maxLiquidityForAmounts, mostSignificantBit, nearestUsableTick, priceToClosestTick, subIn256, tickToPrice, toHex, tradeComparator };
 //# sourceMappingURL=v3-sdk.esm.js.map
