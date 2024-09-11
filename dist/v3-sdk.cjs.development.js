@@ -10,13 +10,13 @@ var invariant = _interopDefault(require('tiny-invariant'));
 var abi = require('@ethersproject/abi');
 var address = require('@ethersproject/address');
 var solidity = require('@ethersproject/solidity');
-var IMulticall = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json'));
-var INonfungiblePositionManager = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'));
-var ISelfPermit = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json'));
-var IPeripheryPaymentsWithFee = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/interfaces/IPeripheryPaymentsWithFee.sol/IPeripheryPaymentsWithFee.json'));
-var IQuoter = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json'));
+var IMulticall = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json'));
+var INonfungiblePositionManager = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'));
+var ISelfPermit = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json'));
+var IPeripheryPaymentsWithFee = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/interfaces/IPeripheryPaymentsWithFee.sol/IPeripheryPaymentsWithFee.json'));
+var IQuoter = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json'));
 var IUniswapV3Staker = _interopDefault(require('@uniswap/v3-staker/artifacts/contracts/UniswapV3Staker.sol/UniswapV3Staker.json'));
-var ISwapRouter = _interopDefault(require('@uniswap/v3-periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json'));
+var ISwapRouter = _interopDefault(require('@pumpup/v3-periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json'));
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {

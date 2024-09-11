@@ -4,13 +4,13 @@ import invariant from 'tiny-invariant';
 import { defaultAbiCoder, Interface } from '@ethersproject/abi';
 import { getCreate2Address } from '@ethersproject/address';
 import { keccak256, pack } from '@ethersproject/solidity';
-import IMulticall from '@uniswap/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json';
-import INonfungiblePositionManager from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json';
-import ISelfPermit from '@uniswap/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json';
-import IPeripheryPaymentsWithFee from '@uniswap/v3-periphery/artifacts/contracts/interfaces/IPeripheryPaymentsWithFee.sol/IPeripheryPaymentsWithFee.json';
-import IQuoter from '@uniswap/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json';
+import IMulticall from '@pumpup/v3-periphery/artifacts/contracts/interfaces/IMulticall.sol/IMulticall.json';
+import INonfungiblePositionManager from '@pumpup/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json';
+import ISelfPermit from '@pumpup/v3-periphery/artifacts/contracts/interfaces/ISelfPermit.sol/ISelfPermit.json';
+import IPeripheryPaymentsWithFee from '@pumpup/v3-periphery/artifacts/contracts/interfaces/IPeripheryPaymentsWithFee.sol/IPeripheryPaymentsWithFee.json';
+import IQuoter from '@pumpup/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json';
 import IUniswapV3Staker from '@uniswap/v3-staker/artifacts/contracts/UniswapV3Staker.sol/UniswapV3Staker.json';
-import ISwapRouter from '@uniswap/v3-periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json';
+import ISwapRouter from '@pumpup/v3-periphery/artifacts/contracts/SwapRouter.sol/SwapRouter.json';
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
