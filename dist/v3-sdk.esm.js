@@ -910,7 +910,7 @@ var FeeAmount;
   FeeAmount[FeeAmount["LOW"] = 500] = "LOW";
   FeeAmount[FeeAmount["MEDIUM"] = 3000] = "MEDIUM";
   FeeAmount[FeeAmount["HIGH"] = 10000] = "HIGH";
-  FeeAmount[FeeAmount["HIGHEST"] = 1800] = "HIGHEST";
+  FeeAmount[FeeAmount["HIGHEST"] = 18000] = "HIGHEST";
 })(FeeAmount || (FeeAmount = {}));
 /**
  * The default factory tick spacings by fee amount.

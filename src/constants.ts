@@ -16,7 +16,7 @@ export enum FeeAmount {
   LOW = 500,
   MEDIUM = 3000,
   HIGH = 10000,
-  HIGHEST = 1800
+  HIGHEST = 18000
 }
 
 /**

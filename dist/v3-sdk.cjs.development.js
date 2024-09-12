@@ -911,7 +911,7 @@ var POOL_INIT_CODE_HASH = '0x1e85f501b45deb56047d2d981e42784125caf47d6c30afeaab8
   FeeAmount[FeeAmount["LOW"] = 500] = "LOW";
   FeeAmount[FeeAmount["MEDIUM"] = 3000] = "MEDIUM";
   FeeAmount[FeeAmount["HIGH"] = 10000] = "HIGH";
-  FeeAmount[FeeAmount["HIGHEST"] = 1800] = "HIGHEST";
+  FeeAmount[FeeAmount["HIGHEST"] = 18000] = "HIGHEST";
 })(exports.FeeAmount || (exports.FeeAmount = {}));
 /**
  * The default factory tick spacings by fee amount.

@@ -13,7 +13,7 @@ export declare enum FeeAmount {
     LOW = 500,
     MEDIUM = 3000,
     HIGH = 10000,
-    HIGHEST = 1800
+    HIGHEST = 18000
 }
 /**
  * The default factory tick spacings by fee amount.
