@@ -1,6 +1,6 @@
 export declare const FACTORY_ADDRESS = "0x434f93bc85e709C7c6760f1DfE793D35501EA671";
 export declare const FACTORY_ADDRESS_MAP: {
-    85432: string;
+    84532: string;
     1: string;
 };
 export declare const ADDRESS_ZERO = "0x0000000000000000000000000000000000000000";
