@@ -9,7 +9,7 @@ import { FeeAmount } from '../constants';
  * @param initCodeHashManualOverride Override the init code hash used to compute the pool address if necessary
  * @returns The pool address
  */
-export declare function computePoolAddress({ factoryAddress, tokenA, tokenB, fee, initCodeHashManualOverride, }: {
+export declare function computePoolAddress({ factoryAddress, tokenA, tokenB, fee, initCodeHashManualOverride }: {
     factoryAddress: string;
     tokenA: Token;
     tokenB: Token;
