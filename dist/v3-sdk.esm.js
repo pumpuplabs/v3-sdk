@@ -910,13 +910,14 @@ var FeeAmount;
   FeeAmount[FeeAmount["LOW"] = 500] = "LOW";
   FeeAmount[FeeAmount["MEDIUM"] = 3000] = "MEDIUM";
   FeeAmount[FeeAmount["HIGH"] = 10000] = "HIGH";
+  FeeAmount[FeeAmount["HIGHEST"] = 1800] = "HIGHEST";
 })(FeeAmount || (FeeAmount = {}));
 /**
  * The default factory tick spacings by fee amount.
  */
 
 
-var TICK_SPACINGS = (_TICK_SPACINGS = {}, _TICK_SPACINGS[FeeAmount.LOWEST] = 1, _TICK_SPACINGS[FeeAmount.LOW] = 10, _TICK_SPACINGS[FeeAmount.MEDIUM] = 60, _TICK_SPACINGS[FeeAmount.HIGH] = 200, _TICK_SPACINGS);
+var TICK_SPACINGS = (_TICK_SPACINGS = {}, _TICK_SPACINGS[FeeAmount.LOWEST] = 1, _TICK_SPACINGS[FeeAmount.LOW] = 10, _TICK_SPACINGS[FeeAmount.MEDIUM] = 60, _TICK_SPACINGS[FeeAmount.HIGH] = 200, _TICK_SPACINGS[FeeAmount.HIGHEST] = 360, _TICK_SPACINGS);
 
 var NEGATIVE_ONE = /*#__PURE__*/JSBI.BigInt(-1);
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
