@@ -1,4 +1,4 @@
-export declare const FACTORY_ADDRESS = "0x434f93bc85e709C7c6760f1DfE793D35501EA671";
+export declare const FACTORY_ADDRESS = "0xD38A464A4446ea42A6d7EdC68A24e175b4Ff38Ae";
 export declare const FACTORY_ADDRESS_MAP: {
     84532: string;
     1: string;
