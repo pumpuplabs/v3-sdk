@@ -1,10 +1,10 @@
-export declare const FACTORY_ADDRESS = "0xD38A464A4446ea42A6d7EdC68A24e175b4Ff38Ae";
+export declare const FACTORY_ADDRESS = "0x235a0f30B8D3338E5046b2e9cDb62E5ce498d3A1";
 export declare const FACTORY_ADDRESS_MAP: {
     84532: string;
     1: string;
 };
 export declare const ADDRESS_ZERO = "0x0000000000000000000000000000000000000000";
-export declare const POOL_INIT_CODE_HASH = "0x1e85f501b45deb56047d2d981e42784125caf47d6c30afeaab8a2a9fc0498037";
+export declare const POOL_INIT_CODE_HASH = "0x4f157d8bc516d785f45049f8f9027de387954a1002431d9eac3d87b5f08a1976";
 /**
  * The default factory enabled fee amounts, denominated in hundredths of bips.
  */
