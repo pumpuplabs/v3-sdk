@@ -26,14 +26,14 @@
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
-    "@pumpup/v3-periphery": "^1.0.3",
+    "@pumpup/v3-periphery": "^1.0.4",
     "@uniswap/sdk-core": "https://github.com/pumpuplabs/sdk-core.git",
     "@uniswap/v3-staker": "1.0.0",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
-    "@pumpup/v3-core": "^1.0.0",
+    "@pumpup/v3-core": "^1.0.1",
     "@types/jest": "^24.0.25",
     "tsdx": "^0.14.1"
   },

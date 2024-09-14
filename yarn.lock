@@ -1276,10 +1276,15 @@
   resolved "https://registry.yarnpkg.com/@pumpup/v3-core/-/v3-core-1.0.0.tgz#8f4813d5b8256088430ce17994886c78b2e4afa9"
   integrity sha512-CsslXUrYm8/vBhC1n36hHihw7XzT/4xUHsHLPn/9+7B8hhnp79JPy2EBQuRc3EkrCIz50qmzkxqetPyZN3xwlA==
 
-"@pumpup/v3-periphery@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@pumpup/v3-periphery/-/v3-periphery-1.0.3.tgz#5025feb80a31e4b0f4c67aa7379b7b8bb5bbf952"
-  integrity sha512-NZS8Mk+k30eOjeraflBFsuMvQzUmG+zj6QnRX/0Rr3D/cZ/sV5p+Da1yvJyr2LJZ2MUhKC6B9kuQe9mUmb20Ig==
+"@pumpup/v3-core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@pumpup/v3-core/-/v3-core-1.0.1.tgz#7c26be34054b827b2b30a24a8b55f78ece499453"
+  integrity sha512-VofteII6Ph0pzzuk5eVA48HBLhjW7M69pO3IJaX9T63CZJXB9w1dBf5FLRyhWGdv1mez/xDvzsqkznV9+v9uhg==
+
+"@pumpup/v3-periphery@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@pumpup/v3-periphery/-/v3-periphery-1.0.4.tgz#c740f42875a2781f235204f470e6a29afa13c7f5"
+  integrity sha512-lgwiIyreCfSUDrtarr3LuoUpCS3zgXPm3QGGvXCIJcGzfS0Jdj2QRqmzKTHyHCGxOYK9S2MPI6GimBbpRYUSww==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@pumpup/v3-core" "^1.0.0"
