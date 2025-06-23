@@ -1,4 +1,4 @@
-import { BigintIsh, Price, Token, CurrencyAmount } from '@uniswap/sdk-core';
+import { BigintIsh, Price, Token, CurrencyAmount } from '@pumpup/sdk-core';
 import JSBI from 'jsbi';
 import { FeeAmount } from '../constants';
 import { Tick, TickConstructorArgs } from './tick';

@@ -1,4 +1,4 @@
-import { Token } from '@uniswap/sdk-core';
+import { Token } from '@pumpup/sdk-core';
 import { FeeAmount } from '../constants';
 /**
  * Computes a pool address

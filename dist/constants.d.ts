@@ -1,7 +1,8 @@
-export declare const FACTORY_ADDRESS = "0x235a0f30B8D3338E5046b2e9cDb62E5ce498d3A1";
+export declare const FACTORY_ADDRESS = "0xEC97dC2342E6406286cE8a5FD53847427f81D8a5";
 export declare const FACTORY_ADDRESS_MAP: {
-    84532: string;
+    8532: string;
     1: string;
+    57073: string;
 };
 export declare const ADDRESS_ZERO = "0x0000000000000000000000000000000000000000";
 export declare const POOL_INIT_CODE_HASH = "0x4f157d8bc516d785f45049f8f9027de387954a1002431d9eac3d87b5f08a1976";

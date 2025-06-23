@@ -1,4 +1,4 @@
-import { BigintIsh } from '@uniswap/sdk-core';
+import { BigintIsh } from '@pumpup/sdk-core';
 import { Tick, TickConstructorArgs } from './tick';
 import { TickDataProvider } from './tickDataProvider';
 /**

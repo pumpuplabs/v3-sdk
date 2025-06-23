@@ -1,5 +1,5 @@
 import JSBI from 'jsbi';
-import { BigintIsh } from '@uniswap/sdk-core';
+import { BigintIsh } from '@pumpup/sdk-core';
 export interface TickConstructorArgs {
     index: number;
     liquidityGross: BigintIsh;

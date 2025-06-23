@@ -1,5 +1,5 @@
 import { Interface } from '@ethersproject/abi';
-import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@uniswap/sdk-core';
+import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@pumpup/sdk-core';
 import { MethodParameters } from './utils/calldata';
 import { Route } from './entities';
 /**
